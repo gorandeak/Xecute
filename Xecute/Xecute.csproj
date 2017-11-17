@@ -66,7 +66,10 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\home.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\logo_x.png" />
+    <Content Include="Images\logo_ex.png" />
     <Content Include="Master.Master" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

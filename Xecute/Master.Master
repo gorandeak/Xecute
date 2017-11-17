@@ -14,16 +14,17 @@
 <%--    <script src="Scripts/bootstrap.js"></script>--%>
     <script src="Scripts/bootstrap.js"></script>
     <link href="Content/Navbar.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet" />
     <script src="Scripts/Navbar.js"></script>
     <script src="Scripts/Scroll.js"></script>
     <style>
-body {background-color: black;}</style>
+body {background-color: #1F1D1D;}</style>
 </head>
 <body>
     <form id="form1" runat="server" >
         <div style="background-color:black">
             <!-- Fixed navbar -->
-        <nav id="header" class="navbar navbar-fixed-top" style="background-color:black">
+        <nav id="header" class="navbar navbar-fixed-top" style="background-color:#1F1D1D">
            
             <div id="header-container" class="container navbar-container">
                 <div class="navbar-header">
@@ -33,11 +34,11 @@ body {background-color: black;}</style>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a id="brand" class="navbar-brand" href="#">Project name</a>
+                    <a id="brand" class="navbar-brand" href="#"><img src="Images/logo_ex.png" width="130" /></a>
                 </div>
-                <div id="navbar" class="collapse navbar-collapse">
+                <div id="navbar" class="collapse buttoni navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#Home">Home</a></li>
+                        <%--<li class="active"><a href="#Home"></a></li>--%>
                         <li><a href="#about">AboutUs</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#contact">Contact</a></li>

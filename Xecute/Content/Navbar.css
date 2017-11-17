@@ -28,8 +28,8 @@ footer {
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
-    background-color: #222;
-    border-color: #080808;
+    /*background-color: #222;*/
+    /*border-color: #080808;*/
     box-shadow: 0 0 5px rgba(0,0,0,.8);
 }
 
@@ -50,4 +50,8 @@ footer {
     -webkit-transition: 0.8s;
 }
 
-
+.buttoni {
+    float: right;
+    margin-top: 6px;
+    font-size:16px;
+}
